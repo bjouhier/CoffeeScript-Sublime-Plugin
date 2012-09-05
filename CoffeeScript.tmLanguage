@@ -7,11 +7,12 @@
 	<key>fileTypes</key>
 	<array>
 		<string>coffee</string>
+		<string>_coffee</string>
 		<string>Cakefile</string>
 		<string>coffee.erb</string>
 	</array>
 	<key>firstLineMatch</key>
-	<string>^#!.*\bcoffee</string>
+	<string>^#!.*\b_?coffee</string>
 	<key>foldingStartMarker</key>
 	<string>^\s*class\s+\S.*$|.*(-&gt;|=&gt;)\s*$|.*[\[{]\s*$</string>
 	<key>foldingStopMarker</key>
